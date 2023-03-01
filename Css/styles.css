@@ -1,0 +1,223 @@
+/** ver paleta de colores*/
+*
+{
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container 
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: white; 
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;    
+    box-shadow:0  0px 10px rgb(42, 42, 46) ;
+
+}
+.container .lado_izquierdo{
+    position: relative;
+    background-color: grey;
+    padding: 40px;
+   
+
+}
+/** Perfil*/
+.perfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white; 
+}
+
+.perfil .img{
+position: relative;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+overflow: hidden;
+}
+/*
+.perfil .img img
+{
+position: absolute;
+top 0;
+left: 0;
+width: 0;
+height: 0;
+object-fit: cover;
+}*/
+.perfil h2 span 
+{
+    font-size: 1,5em;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1,4em;
+}
+.perfil h2 
+{
+    font-size: 0,8em;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1,4em;
+}
+/* informacion de contacto*/
+.informacion_de_contacto
+{
+    position: relative; 
+    padding-top: 40px; 
+}
+.titulo_contacto
+{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.material-icons
+{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+.informacion_de_contacto p
+{
+  position: relative;
+}
+.informacion_de_contacto  .icon 
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+}
+/* Estudios realizados*/
+.estudios
+{
+    position: relative;
+    padding-top: 40px; 
+}
+.titulo
+{
+    font-size:  1em;
+    text-align: left;
+    margin-top: 20px;   
+    font-weight: 300;
+    line-height: 1,4em;
+    padding-top: 10px; 
+}
+.años_estudios
+{
+    font-size:  1em;
+    text-align: left;
+    margin-top: 10px;    
+    font-weight: 600;
+    line-height: 1,4em;
+    padding-top: 20px;  
+}
+.instituciones
+{
+    font-size:  1em;
+    text-align: left;
+    margin-top: 20px;    
+    font-weight: 600;
+    line-height: 1,4em;
+    padding-top: 40px; 
+}
+
+
+
+/*Columna derecha*/
+.container .lado_derecho
+{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+/* Sobre mi*/
+.sobre_mi
+{
+    position: relative;
+}
+.titulo_sobre_mi
+{
+    font-size:  1em;
+    text-align: left;
+    margin-top: 20px;    
+    font-weight: 600;
+    line-height: 1,4em;
+    padding-top: 40px; 
+    text-transform: uppercase;
+}
+.texto_sobre_mi
+{
+    font-size:  1em;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1,4em;
+    padding-top: 40px; 
+}
+/* Experiencia */
+.experiencia
+{ 
+position: relative;
+
+}
+.titulo_experiencia
+{
+    position: relative;
+    font-size:  1em;
+    text-align: left;
+    margin-top: 20px;    
+    font-weight: 600;
+    line-height: 1,4em;
+    padding-top: 40px; 
+    text-transform: uppercase;
+    display: grid;
+grid-template-columns: 1fr 2fr ;
+}
+.años_experiencia
+{position: relative;
+    font-size:  1em;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1,4em;
+    padding-top: 20px; 
+}
+.puesto
+{position: relative;
+    font-size:  1em;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1,4em;
+    padding-top: 20px; 
+}
+.lugar_de_trabajo
+{position: relative;
+    font-size:  1em;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1,4em;
+    padding-top: 20px; 
+}

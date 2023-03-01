@@ -1,0 +1,40 @@
+{"results":
+[{
+    "gender":"male",
+
+    "name":{
+        "title":"Mr",
+    "first":"Iker",
+    "last":"Rojas"},
+
+    "location":
+    {"street":{"number":2063,
+    "name":"Calle Mota"},
+    "city":"La Coruña",
+    "state":"Extremadura",
+    "country":"Spain",
+    "postcode":37969,
+    "coordinates":{"latitude":"-30.7036","longitude":"-62.5348"},
+    "timezone":{"offset":"-6:00",
+    "description":"Central Time (US & Canada), Mexico City"}},
+    
+    "email":"iker.rojas@example.com",
+    "login":{"uuid":"7c33e6a4-9743-434a-9a69-dd981e69433d",
+    "username":"greenmouse863",
+    "password":"paranoid",
+    "salt":"KBpppqQv",
+    "md5":"39b1a419bda352acdde5c37c6535e2c5",
+    "sha1":"f8dc7b821c1acaba8bed46fcb0866d4f3afb914e",
+    "sha256":"34778e36148e279f1ee9e3c74e8862789e2cea64e9706ab49d875c71ccbace68"},
+    "dob":{"date":"1991-10-27T15:56:56.268Z","age":31},
+    "registered":{"date":"2014-10-10T23:11:48.238Z","age":8},
+
+    "phone":"909-452-228",
+    "cell":"697-635-655",
+
+    "id":{"name":"DNI","value":"33795305-X"},
+    "picture":{"large":"https://randomuser.me/api/portraits/men/50.jpg",
+    "medium":"https://randomuser.me/api/portraits/med/men/50.jpg",
+    "thumbnail":"https://randomuser.me/api/portraits/thumb/men/50.jpg"},
+    
+    "nat":"ES"}],"info":{"seed":"ebbfd94839d4b4a1","results":1,"page":1,"version":"1.4"}}
