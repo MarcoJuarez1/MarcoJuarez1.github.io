@@ -1,7 +1,7 @@
 const ids=['fullname','picture','phone','email','address',];
 
 const api={
-    url:'https://github.com/MarcoJuarez1/MarcoJuarez1.github.io/blob/25667ae567d4f5fef02ff196b542ec0a8bea0f91/json/datos.json',
+    url:'https://github.com/MarcoJuarez1/MarcoJuarez1.github.io/blob/gh-pages/json/datos.json',
     reader:function(data){
 
         let ret=[];
