@@ -1,7 +1,7 @@
 const ids=['fullname','picture','phone','email','address',];
 
 const api={
-    url:'https://github.com/MarcoJuarez1/MarcoJuarez1.github.io/blob/gh-pages/json/datos.json',
+    url:'https://randomuser.me/api/',
     reader:function(data){
 
         let ret=[];
